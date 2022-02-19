@@ -1,0 +1,613 @@
+html{
+    height: 100%;
+    
+}
+
+h1{
+    color:#DC3958;
+    font-size: 36px;
+    text-indent: 20px;
+
+
+}
+
+.semdecoracao{
+    text-decoration: none;
+}
+
+.planodefundo{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+body{
+    display: grid;
+    grid-template-rows: 100% 100% 150% 200% 100%;
+    height: 100%;
+    margin:0%;
+    text-align: justify;
+    
+}
+
+header{
+    display: grid;
+    grid-template-rows: 10% 90%;
+    grid-row: 1/2;
+
+}
+
+.imagem_fundo{
+    background-image: url("../Imagem/profile-pic.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    max-width: 100%;
+
+    
+
+}
+
+header div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 20px;
+    background-color: rgba(0, 0, 0, 0.95);
+    grid-row: 1/2;
+
+    width: 100%;
+
+    
+}
+
+
+.color{
+    color:#DC3958;
+}
+
+.color2{
+    color: whitesmoke;
+}
+
+.centro{
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+header nav{
+    grid-row: 2/3;
+    padding-right: 10px;
+    padding-left: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    
+}
+
+header nav p{
+    color: white;
+    padding-left: 50%;
+    padding-right: 30%;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+
+header1{
+    display: grid;
+    height: 150%;
+    grid-template-rows: 15% 85%;
+    background-image: url("../Imagem/Neve.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header1 nav{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: flex-start;
+    grid-row: 1/2;
+    margin-top: 7.4%;
+    background-color: rgba(0, 0, 0, 0.3);
+    
+}
+
+header1 div{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 18%;
+
+    
+}
+
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 350px 10px 1fr;
+    grid-row:2/3;
+    padding-top: 20px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+   
+    
+}
+
+.imagem_fundo2{
+    background-image: url("../Imagem/Escritório.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+
+}
+
+main nav{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 350px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.curriculo_botao{
+    background-color: rgba(0, 0, 0, 0.7);
+    border-width: 1;
+    border-style:groove;
+    border-color:#DC3958;
+    height: 30px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 200px;
+
+}
+
+main nav a{
+    text-decoration: none;
+    color: #DC3958;
+
+}
+
+main span{
+    
+    grid-row: 3/4;
+    grid-column: 1/4;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+main span section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 30%;
+    justify-content: space-around;
+}
+
+.progress_bar-vermelho{
+    width: 10%;
+    height: 10px;
+    border-radius: 10px;
+    border: medium solid black;
+    background: linear-gradient(to right, #77dd77 0%, #77dd77, #bcb9b9 33%);
+}
+
+.progress_bar-amarelo{
+    width: 10%;
+    height: 10px;
+    border-radius: 10px;
+    border: medium solid black;
+    background: linear-gradient(to right, #77dd77 0%, #77dd77, #bcb9b9 66%);
+}
+
+.progress_bar-verde{
+    width: 10%;
+    height: 10px;
+    border-radius: 10px;
+    border: medium solid black;
+    background: linear-gradient(to right, #77dd77 0%, #77dd77, #bcb9b9 100%);
+}
+
+
+
+
+aside{  
+    display: grid;
+    grid-template-rows: 10% 60% 30%;
+    background-image: url("../Imagem/Caderno.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+aside span{
+    display: flex;
+
+    align-items: center;
+    grid-row:1/2;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+aside section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-row:2/3;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+aside nav{
+    grid-row: 3/4;
+    color: white;
+
+    background-color: rgba(0, 0, 0, 0.6);
+
+
+
+}
+
+.texto{
+    line-height: 1.6;
+    font-size: 16px;
+    margin: 15px;
+    text-indent: 40px;
+    text-align: justify;
+}
+
+ 
+
+.quadrado{
+    height: 100px;
+    width: 200px;
+    color:white;
+}
+
+
+
+
+.lado-direito1{
+    position: absolute;
+    top: 368%;
+    right: 32%;
+}
+
+.lado-esquerdo1{
+    position: absolute;
+    top: 385%;
+    left: 32%;
+}
+
+.lado-direito2{
+    position: absolute;
+    top: 400%;
+    right: 32%;
+}
+
+.lado-esquerdo2{
+    position: absolute;
+    top: 422%;
+    left: 32%;
+}
+
+.lado-direito3{
+    position: absolute;
+    top: 439%;
+    right: 32%;
+}
+
+.lado-esquerdo3{
+    position: absolute;
+    top: 458%;
+    left: 32%;
+}
+
+.linha-vertical{
+    height: 100px;
+    border: 1px solid #DC3958;
+}
+
+.circulo{
+    border-radius:100%;
+    border:10px solid #DC3958;
+    width:0.1px;
+    height:0.1px;
+    background-color:#DC3958;
+}
+
+.absoluto{
+    position: absolute;
+    top: 2%;
+    right: 20px;
+}
+
+.fixed{
+    position:fixed;
+}
+
+.arredonda{
+    border-radius: 100px;
+    height: 40px;
+}
+
+.Tamanho{
+    font-size: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer{
+    display: grid;
+    height: 100%;
+    grid-template-rows: 15% 55% 30%;
+    background-image: url("../Imagem/Floresta.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+footer nav{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: flex-start;
+    grid-row: 1/2;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+footer div section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10%;
+    grid-row: 2/3;
+    
+}
+
+footer span{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+footer span div{
+    grid-column: 1/2;
+}
+
+footer span div ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+footer span nav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    grid-column: 3/4;
+}
+
+@media only screen and (max-width: 900px){
+    right{
+        display: none;
+        visibility: hidden;
+    }
+
+    .progress_bar-vermelho{
+        width: 8%;
+        height: 8px;
+        border-radius: 5px;
+        border: medium solid black;
+        background: linear-gradient(to right, #77dd77 0%, #77dd77, #bcb9b9 33%);
+    }
+    
+    .progress_bar-amarelo{
+        width: 8%;
+        height: 8px;
+        border-radius: 5px;
+        border: medium solid black;
+        background: linear-gradient(to right, #77dd77 0%, #77dd77, #bcb9b9 66%);
+    }
+    
+    .progress_bar-verde{
+        width: 8%;
+        height: 8px;
+        border-radius: 5px;
+        border: medium solid black;
+        background: linear-gradient(to right, #77dd77 0%, #77dd77, #bcb9b9 100%);
+    }
+    main span section{
+        height: 50%;
+    }
+
+    .lado-direito1{
+        position: absolute;
+        top: 368%;
+        left: 225px;
+    }
+    
+    .lado-esquerdo1{
+        position: absolute;
+        top: 380%;
+        right: 225px;
+    }
+    
+    .lado-direito2{
+        position: absolute;
+        top: 400%;
+        left: 225px;
+    }
+    
+    .lado-esquerdo2{
+        position: absolute;
+        top: 422%;
+        left: 225px;
+    }
+    
+    .lado-direito3{
+        position: absolute;
+        top: 439%;
+        left: 225px;
+    }
+    
+    .lado-esquerdo3{
+        position: absolute;
+        top: 458%;
+        left: 250px;
+    }
+
+    header1 nav{
+        margin-top: 0%;
+    }
+    header1 div{
+        margin-top: 0%;
+    }
+   
+  
+    aside nav{
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    header nav p{
+        font-size:30px;
+    }
+    header1 nav{
+        margin-top: 15%;
+    }
+    header1 div{
+        margin-top: 10%;
+    }
+
+    .quadrado{
+        height: 100px;
+        width: 200px;
+        color:white;
+    }
+    
+    
+    
+    
+    .lado-direito1{
+        position: absolute;
+        top: 368%;
+        right: 30%;
+    }
+    
+    .lado-esquerdo1{
+        position: absolute;
+        top: 387%;
+        left: 30%;
+    }
+    
+    .lado-direito2{
+        position: absolute;
+        top: 403%;
+        right: 30%;
+    }
+    
+    .lado-esquerdo2{
+        position: absolute;
+        top: 420%;
+        left: 30%;
+    }
+    
+    .lado-direito3{
+        position: absolute;
+        top: 435%;
+        right: 30%;
+    }
+    
+    .lado-esquerdo3{
+        position: absolute;
+        top: 450%;
+        left: 30%;
+    }
+    
+    .texto{
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (max-width: 450px){
+    header div{
+        font-size: 12px;
+    }
+    h1{
+        color:#DC3958;
+        font-size: 24px;
+    
+    
+    }
+    header nav p{
+        font-size:24px;
+    }
+
+    .lado-direito1{
+        position: absolute;
+        top: 368%;
+        right: 30%;
+    }
+    
+    .lado-esquerdo1{
+        position: absolute;
+        top: 387%;
+        left: 225px;
+    }
+    
+    .lado-direito2{
+        position: absolute;
+        top: 403%;
+        right: 30%;
+    }
+    
+    .lado-esquerdo2{
+        position: absolute;
+        top: 420%;
+        left: 225px;
+    }
+    
+    .lado-direito3{
+        position: absolute;
+        top: 435%;
+        left: 225px;
+    }
+    
+    .lado-esquerdo3{
+        position: absolute;
+        top: 450%;
+        left: 225px;
+    }
+    
+}
+
+
+
+/*img {
+    max-width: 100%;
+  } */
+  
+  
+
+
+
+
+
+
+
+
+/*background-color: #191919;
+    color:#C84B31;
+    color:white;*/
+
